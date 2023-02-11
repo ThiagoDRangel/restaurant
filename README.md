@@ -1,3 +1,12 @@
+Conecte-se ao GitHub
+Após a instalação dos pacotes necessários, entre no diretório do aplicativo recém-criado e execute as seguintes linhas de código no terminal:
+
+git init (cria um novo repositório Git)
+git commit -m "First commit" (pega o instantâneo preparado e o confirma no histórico do projeto com a mensagem entre as aspas)
+git remote add origin <your app's Github repository URL> (cria um novo controle remoto chamado "origem" localizado na url)
+git pull origin master (pode ou não ser necessário, mas isso extrai as alterações da origem/mestre da ramificação armazenada localmente e a mescla com a ramificação local com check-out)
+git push -u origin master (empurre o conteúdo local para o GitHub)
+Neste ponto, seu projeto deve estar visível em seu repositório GitHub.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
